@@ -1,0 +1,240 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   background-image: url(http://www.satvikinfotech.com/wp-content/uploads/2014/11/tips-best-iphone-app-developer-1024x1024.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#ques-title{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+    margin: 0 auto;
+  margin-top: 0;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.2);
+  padding: 10px;
+}
+
+#first-question{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 150%;
+}
+
+h1{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#second-question{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 150%;
+  display: none;
+}
+#second-question span{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#third-question{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 150%;
+  display: none;
+}
+
+#gifsy{
+  width: 100%;
+  height: 100%;
+
+}
+
+.hack{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 150%;
+  color: black;
+}
+
+.hack span{
+  font-size: 140%;
+  color: red;
+}
+
+.ques-contain{
+  background-color: rgba(250,250,250, .3);
+  height: 650px;
+  border-right: 1px solid black;
+  padding: 0;
+  text-align: center;
+}
+
+.questions{
+  background-color: rgba(0,0,0,.2);
+  width: 98%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+#forth-question{
+  display: none;
+}
+
+.input{
+  height: 400px;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  color: rgb(50,50,255);
+  font-weight: bolder;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  font-size: 120%;
+  outline: none;
+  padding: 5px;
+  overflow: auto;
+
+}
+
+.CONSOLE{
+  height: 200px;
+  background-color: rgba(20,20,20,.8);
+  margin-bottom: 5px;
+}
+
+.align-btn{
+  width: 60%;
+  margin: 3%;
+  height: 50px;
+  margin-top: 0px;
+  font-size: 150%;
+}
+
+
+#drunkLife{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  display: none;
+}
+
+#drunkLife img{
+  background-size: contain;
+  width: 100%;
+  height: 110%;
+}
+
+/*.answer{
+border: 0;
+background-color: transparent;
+width: 100%;
+height: 100%;
+outline: none;
+}*/
+@media screen and (min-width: 781px) and (max-width: 991px){
+
+.ques-contain{
+  border-right: none;
+  margin-left: 18px;
+  height: 500px;
+  margin-bottom: 40px;
+}
+
+.align-btn{
+  width: 90%;
+  margin-left: 6%;
+  height: 60px;
+  font-size: 190%;
+}
+
+.input, .CONSOLE{
+  margin-left: 15px;
+}
+
+ .ques-title{
+    width: 100%;
+
+  }
+
+  .questions{
+    height: 78%;
+  }
+  .questions p, .questions h2, .questions h3{
+    font-size: 95%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 780px){
+  .ques-contain{
+    width: 100% !important;
+    margin-left: 14px;
+    border-right: none;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .align-btn{
+  width: 90%;
+  margin-left: 6%;
+  height: 60px;
+  font-size: 190%;
+}
+  .input, .CONSOLE{
+  margin-left: 14px;
+  width: 100%;
+}
+  .questions{
+    height: 80%;
+  }
+  .questions p, .questions h2, .questions h3{
+    font-size: 95%;
+  }
+  .CONSOLE{
+    padding-top: 20px !important;
+  }
+  .hack{
+
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .hack{
+    text-align: center;
+  }
+  .ques-title{
+    font-size: 200%;
+
+  }
+
+  .align-btn{
+  width: 90%;
+  margin-left: 6.9%;
+  height: 60px;
+  font-size: 190%;
+}
+  .ques-contain{
+    width: 100% !important;
+    margin-left: 14px;
+    border-right: none;
+    height: 560px;
+    margin-bottom: 15px;
+  }
+  .CONSOLE{
+    padding-top: 20px !important;
+  }
+  .questions{
+    height: 80%;
+  }
+  .questions p, .questions h2, .questions h3{
+    font-size: 90%;
+  }
+  .input, .CONSOLE{
+  margin-left: 12px;
+  width: 100%;
+}
+
+}
