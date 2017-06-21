@@ -155,7 +155,7 @@ else if(answer.third_correct === false && answer.second_correct === true && answ
 });
 
 
-var timeDrink = false, which = true, time = 10000;
+var timeDrink = false, which = true, time = 100000;
 var isITtime = setInterval(goForIt, time);
 
 function goForIt(){
